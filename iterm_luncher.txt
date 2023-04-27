@@ -1,0 +1,6 @@
+on run {input, parameters}
+    tell application "iTerm"
+        create window with default profile
+    end tell
+    return input
+end run
